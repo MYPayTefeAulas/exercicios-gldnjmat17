@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtGreeter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".greeter.Greeter1Activity">
+
+    <TextView
+        android:id="@+id/textGreeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="52dp"
+        android:text="Greeter:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtNumGreeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textGreeter"
+        app:layout_constraintStart_toEndOf="@+id/textGreeter"
+        app:layout_constraintTop_toTopOf="@+id/textGreeter" />
+
+    <Button
+        android:id="@+id/btTrocar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="TROCAR"
+        app:layout_constraintBottom_toBottomOf="@+id/textGreeter"
+        app:layout_constraintStart_toEndOf="@+id/txtNumGreeter"
+        app:layout_constraintTop_toTopOf="@+id/textGreeter" />
+
+    <Button
+        android:id="@+id/btImprimir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="Imprimir Próximo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textGreeter" />
+
+    <TextView
+        android:id="@+id/txtSaida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btImprimir" />
+</androidx.constraintlayout.widget.ConstraintLayout>
