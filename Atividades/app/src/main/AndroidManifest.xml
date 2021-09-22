@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Atividades">
         <activity
+            android:name=".AgendaActivity"
+            android:exported="true" />
+        <activity
             android:name=".TelaInicialActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,9 +32,7 @@
             android:exported="true" />
         <activity
             android:name=".CalculadoraActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
