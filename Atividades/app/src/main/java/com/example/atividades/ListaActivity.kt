@@ -14,6 +14,8 @@ class ListaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        setTitle("My Feira")
+
         binding = ActivityListaBinding.inflate(layoutInflater)
         //ao clicar em analisar
         binding.btAnalisar.setOnClickListener {

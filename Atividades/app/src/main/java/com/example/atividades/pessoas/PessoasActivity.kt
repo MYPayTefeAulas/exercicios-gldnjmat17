@@ -1,4 +1,4 @@
-package com.example.atividades
+package com.example.atividades.pessoas
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -13,6 +13,8 @@ class PessoasActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        setTitle("My Lista de Pessoas")
 
         binding = ActivityPessoasBinding.inflate(layoutInflater)
 

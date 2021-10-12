@@ -11,6 +11,8 @@ class CalculadoraActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        setTitle("My Calculadora")
+
         binding = ActivityCalculadoraBinding.inflate(layoutInflater)
 
         binding.btAdicao.setOnClickListener {

@@ -10,7 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Atividades">
         <activity
-            android:name=".AgendaActivity"
+            android:name=".TelaInicial_V2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".SorteioDeDadosActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BatalhaRPGActivity"
+            android:exported="true" />
+        <activity
+            android:name=".pessoas.AgendaActivity"
             android:exported="true" />
         <activity
             android:name=".TelaInicialActivity"
@@ -22,7 +31,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PessoasActivity"
+            android:name=".pessoas.PessoasActivity"
             android:exported="true" />
         <activity
             android:name=".ListaActivity"

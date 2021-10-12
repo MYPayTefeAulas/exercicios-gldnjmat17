@@ -13,6 +13,8 @@ class Greeter1Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        setTitle("My Greeter")
+
         binding = ActivityGreeter1Binding.inflate(layoutInflater)
 
         //-------------------------------------------------------
